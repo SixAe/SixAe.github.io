@@ -16,8 +16,8 @@ import { plumeTheme } from "vuepress-theme-plume";
 export default defineUserConfig({
   base: "/",
   lang: "zh-CN",
-  title: "中流科技前端文档",
-  description: "中流科技技术文档",
+  title: "中流科技",
+  description: "中流科技文档中心",
 
   head: [
     // 配置站点图标
