@@ -14,7 +14,7 @@ import { defineUserConfig } from 'vuepress'
 import { plumeTheme } from 'vuepress-theme-plume'
 
 export default defineUserConfig({
-  base: '/vuepress-docx',
+  base: '/',
   lang: 'zh-CN',
   title: 'vuepress-docx',
   description: 'vuepress-docx-detail',
