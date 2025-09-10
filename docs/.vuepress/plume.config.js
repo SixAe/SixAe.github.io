@@ -50,8 +50,8 @@ export default defineThemeConfig({
    */
   profile: {
     avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'vuepress-docx',
-    description: 'vuepress-docx-detail',
+    name: '中流科技前端文档',
+    description: '中流科技技术文档',
     // circle: true,
     // location: '',
     // organization: '',
