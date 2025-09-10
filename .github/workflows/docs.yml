@@ -47,7 +47,13 @@ jobs:
       - name: Build VuePress site
         run: pnpm docs:build
 
+      # 👇 新增：上传构建产物为 Artifact
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: github-pages
+          path: docs/.vuepress/dist
+
+      # 👇 部署：自动下载并部署名为 "github-pages" 的 Artifact
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
-        with:
-          path: docs/.vuepress/dist # VuePress 默认构建输出目录
