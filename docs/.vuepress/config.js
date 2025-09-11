@@ -187,10 +187,10 @@ export default defineUserConfig({
      * 加密功能
      * @see https://theme-plume.vuejs.press/guide/features/encryption/
      */
-    // encrypt: {
-    //   global: true,
-    //   admin: ["Abcd@1234"],
-    // },
+    encrypt: {
+      global: true,
+      admin: ["Abcd@1234"],
+    },
     // 其他配置...
     footer: false,
   }),
