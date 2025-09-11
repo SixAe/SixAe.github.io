@@ -8,7 +8,7 @@ import { defineNavbarConfig } from "vuepress-theme-plume";
 
 export default defineNavbarConfig([
   { text: "首页", link: "/", icon: "ant-design:home-twotone" },
-  { text: "博客", link: "/blog/", icon: "ant-design:snippets-outlined" },
+  { text: "文档", link: "/blog/", icon: "ant-design:snippets-outlined" },
   { text: "标签", link: "/blog/tags/", icon: "ant-design:tag-twotone" },
   { text: "归档", link: "/blog/archives/", icon: "ant-design:folder-twotone" },
   {
